@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+#heading{
+	font-family: "montserrat",sans-serif;
+	text-align: center;
+  	text-transform: capitalize;
+  	color: #333;
+	margin-top: 2.5rem;
+	margin-bottom: 5.5rem;
+	
+}
+.dest_container{
+	width: 100%;
+	padding: 1.5rem 1.5rem;
+	background:rgba(232,232,232,1.00);
+	height: auto;
+}
+.inner-container{
+	width: 100%;
+  	max-width: 1200px;
+  	margin: auto;
+  	padding: 0 10px;
+}
+*, :after, :before{
+	box-sizing: border-box;
+}
+.ct-row{
+	white-space: nowrap;
+	margin: 1.5rem;
+	padding: 1.5rem;
+}
+
+ .dest_container .dest-box{
+	display: inline-block;
+	width: 300px;
+	border-radius:0.6rem;
+	box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+	margin-right: 1.5rem;
+	 overflow: hidden;
+	 white-space: nowrap;
+	 margin: 1px 1.7rem;
+}
+.dest-box-img{
+	max-width: 100%;
+	height: auto;
+}
+img{
+	vertical-align: middle;
+	border-style: none;
+}
+a img:hover{
+	
+}
+
+a,a:hover{
+	text-decoration: none;
+}
+a{
+	background-color: transparent;
+}
